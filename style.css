@@ -1,20 +1,32 @@
 body {
-        background-color: rgba(7, 0, 0, 0.685);
+        padding: 0;
+        margin: 0;
+        background-color: #2F414F;
 }
 
 #IMG_perfil {
-        border: 500% solid black;
+        width: 300px; /* Ajuste o tamanho conforme necessário */
+        height: 300px;
+        border-radius: 50%; /* Torna a imagem redonda */
+        border: 5px solid #3894A3; /* Cor e espessura da borda */
+        object-fit: cover; /* Mantém a proporção da imagem */
 }
 
 header {
         background-color:rgb(0, 0, 0); 
         color: white;
-        padding: 15px;
-        padding-bottom: 5px;
-    }
+        padding: 30px;
+        padding-bottom: 30px;
+        text-align: right;
+} 
 
-a {
-        display: inline-block;
-        margin: 5px;;
+nav > a {
+        color: white; /* #da107b */
+        font-weight: bold;
+        text-decoration: none;
+        margin: 10px;
+        padding: 10px;
+        font-size: 19px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
-    
+
