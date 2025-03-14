@@ -1,17 +1,23 @@
+/*Pagina Toda*/
 body {
         padding: 0;
         margin: 0;
         background-color: #2F414F;
 }
 
-#IMG_perfil {
-        width: 300px; /* Ajuste o tamanho conforme necessário */
-        height: 300px;
+/*Imagem*/
+main > img {
+        width: 260px; /* Ajuste o tamanho conforme necessário */
+        height: 260px;
         border-radius: 50%; /* Torna a imagem redonda */
-        border: 5px solid #3894A3; /* Cor e espessura da borda */
+        border: 6px solid aqua; /* #3894A3 Cor e espessura da borda */
         object-fit: cover; /* Mantém a proporção da imagem */
+        position: absolute;
+        top: 210px;
+        left: 190px;
 }
 
+/*Barra do topo*/
 header {
         background-color:rgb(0, 0, 0); 
         color: white;
@@ -20,13 +26,50 @@ header {
         text-align: right;
 } 
 
-nav > a {
+/*Home,Curriculo,Projetos Pessoais,Certificados*/
+nav > a {       
         color: white; /* #da107b */
         font-weight: bold;
         text-decoration: none;
-        margin: 10px;
+        margin: 7px;
         padding: 10px;
         font-size: 19px;
-        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-family:OCR A Std, monospace;
 }
 
+/*Cor ao clicar no link*/
+.link:active {
+        color: aqua;
+}
+
+/* <Ola mundo> */
+#titulo {
+        font-size: 35px;
+        font-weight: bold;
+        font-family: OCR A Std, monospace;
+        color: aqua;
+        position: absolute;
+        top: 190px;
+        left: 650px;
+}
+
+/* Eu sou rafael, */
+#paragrafo1 {
+        font-size: 24px;
+        font-weight: bold;
+        font-family: OCR A Std, monospace;
+        color: rgb(255, 255, 255);
+        position: absolute;
+        top: 265px;
+        left: 480px;
+}
+
+#paragrafo2 {
+        font-size: 24px;
+        font-weight: bold;
+        font-family: OCR A Std, monospace;
+        color: rgb(255, 255, 255);
+        position: absolute;
+        top: 310px;
+        left: 480px;
+}
